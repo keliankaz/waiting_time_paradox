@@ -1,0 +1,148 @@
+DSF_Qatar.txt:
+  start_time: -3000
+  end_time: 2025
+  gaps: null
+  historic_events:
+    - 363
+    - 749
+    - 1068
+    - 1212
+    - 1458 
+  notes: "Historic events in 363, 749, 1068, 1212, and 1458 A.D."
+  references:
+    - "Klinger, Y., Le Béon, M. & Al-Qaryouti, M. 5000 yr of paleoseismicity along the southern Dead Sea fault. Geophys. J. Int. 202, 313–327 (2015)."
+
+CSZ_central.txt:
+  start_time: null
+  end_time: null
+  gaps: null
+  historic_events:
+    - 1700
+  notes: "Events present in central part of subduction zone. Added historic event in 1700"
+  references:
+    - "Goldfinger, C. et al. Turbidite Event History—Methods and Implications for Holocene Paleoseismicity of the Cascadia Subduction Zone. 170 (2012)."
+
+SAF_Pallett_Creek.txt:
+  start_time: 700
+  end_time: 2025
+  gaps: null
+  historic_events:
+    - 1812
+    - 1857
+  notes: "Historic events in 1812 and 1857 A.D."
+  references:
+    - "Scharer, K. M., Biasi, G. P. & Weldon II, R. J. A reevaluation of the Pallett Creek earthquake chronology based on new AMS radiocarbon dates, San Andreas fault, California. J. Geophys. Res. 116, (2011)."
+
+DSF_Beteiha.txt:
+  start_time: -6500
+  end_time: 2025
+  gaps: null
+  historic_events:
+    - -142
+    - 130
+    - 303
+    - 348
+    - 363
+    - 500
+    - 660
+    - 1202
+    - 1758
+  notes: "Event chronology from Ref 49, with historic events from Ref 51: 142 B.C., 130, 303, 348, 363, 500, 660, 1202, and 1758 A.D."
+  references:
+    - "Wechsler, N. et al. A Paleoseismic Record of Earthquakes for the Dead Sea Transform Fault between the First and Seventh Centuries C.E.: Nonperiodic Behavior of a Plate Boundary Fault. Bull. Seismol. Soc. Am. 104, 1329–1347 (2014)."
+    - "Lefevre, M., Klinger, Y., Al-Qaryouti, M., Le Béon, M. & Moumani, K. Slip deficit and temporal clustering along the Dead Sea fault from paleoseismological investigations. Sci. Rep. 8, 4511 (2018)."
+
+SAF_Wrightwood.txt:
+  start_time: -3000
+  end_time: 2025
+  gaps:
+    - [-1500, 500]
+  historic_events:
+    - 1812
+    - 1857
+  notes: "Historic events in 1812 and 1857 A.D. Old and young records combined, with gap interval removed."
+  references:
+    - "Scharer, K. M., Weldon, R. J., Fumal, T. E. & Biasi, G. P. Paleoearthquakes on the Southern San Andreas Fault, Wrightwood, California, 3000 to 1500 B.C.: A New Method for Evaluating Paleoseismic Evidence and Earthquake Horizons. Bull. Seismol. Soc. Am. 97, 1054–1093 (2007)."
+    - "Biasi, G. P., Weldon II, R. J., Fumal, T. & Seitz, G. G. Paleoseismic Event Dating and the Conditional Probability of Large Earthquakes on the Southern San Andreas Fault, California. Bull. Seismol. Soc. Am. 92, 2761–2781 (2002)."
+
+SAF_Frasier_Mountian.txt:
+  start_time: 800
+  end_time: 2025
+  gaps: null
+  historic_events:
+    - 1857
+  notes: "Historic event in 1857 A.D. Oldest interval removed due to possible missed events. (KDC setting 800 as the start date as the record is considered complete from then on)."
+  references: 
+    - "Scharer, K., Weldon, R., Streig, A. & Fumal, T. Paleoearthquakes at Frazier Mountain, California delimit extent and frequency of past San Andreas Fault ruptures along 1857 trace: New rupture history of San Andreas Fault. Geophys. Res. Lett. 41, 4527–4534 (2014)."
+    - "Scharer, K., Weldon, R., Biasi, G., Streig, A. & Fumal, T. Ground‐rupturing earthquakes on the northern Big Bend of the San Andreas Fault, California, 800 A.D. to Present. J. Geophys. Res. Solid Earth 122, 2193–2218 (2017)."
+
+SJF_Hog_Lake.txt:
+  start_time: null
+  end_time: 2025
+  gaps: null
+  historic_events:
+    - 1800
+    - 1918
+  notes: "Historic events in 1800 and 1918 A.D."
+  references:
+    - "Rockwell, T. K., Dawson, T. E., Young Ben-Horin, J. & Seitz, G. A 21-Event, 4,000-Year History of Surface Ruptures in the Anza Seismic Gap, San Jacinto Fault, and Implications for Long-term Earthquake Production on a Major Plate Boundary Fault. Pure Appl. Geophys. 172, 1143–1165 (2015)."
+
+AF_Lake_Paringa.txt:
+  start_time: null
+  end_time: null
+  gaps: null
+  historic_events:
+    - 1717
+  notes: "Most recent event 1717 A.D."
+  references: 
+    - "Howarth, J. D. et al. Past large earthquakes on the Alpine Fault: paleoseismological progress and future directions. N. Z. J. Geol. Geophys. 61, 309–328 (2018)."
+
+ATF_CopperMine10.txt:
+  start_time: null
+  end_time: null
+  gaps: null
+  notes: "Event chronology from Ref 52, with additional event from Ref 57."
+  references:
+    - "Yuan, Z. et al. A 6000-year-long paleoseismologic record of earthquakes along the Xorkoli section of the Altyn Tagh fault, China. Earth Planet. Sci. Lett. 497, 193–203 (2018)."
+    - "Pinzon, N. et al. Spatiotemporal Clustering of Large Earthquakes Along the Central‐Eastern Sections of the Altyn Tagh Fault, China. J. Geophys. Res. Solid Earth 129, e2024JB028912 (2024)."
+
+AF_Hokuri_Creek.txt:
+  start_time: null
+  end_time: null
+  gaps: null
+  historic_events:
+    - 1717
+  notes: "Most recent event 1717 A.D."
+  references: 
+    - "Berryman, K. R. et al. Major Earthquakes Occur Regularly on an Isolated Plate Boundary Fault. Science 336, 1690–1693 (2012)."
+
+CSZ_south.txt:
+  start_time: null
+  end_time: null
+  gaps: null
+  historic_events:
+    - 1700
+  notes: "Includes additional events confined to southern part of subduction zone."
+  references: 
+    - "Goldfinger, C. et al. Turbidite Event History—Methods and Implications for Holocene Paleoseismicity of the Cascadia Subduction Zone. 170 (2012)."
+
+SAF_Noyo_Canyon.txt:
+  start_time: null
+  end_time: null
+  gaps: null
+  historic_events:
+    - 1906
+  notes: "Historic event in 1906 A.D. 75% gaps age model."
+  references:
+    - "Goldfinger, C. et al. Rupture lengths and temporal history of significant earthquakes on the offshore and north coast segments of the Northern San Andreas Fault based on turbidite stratigraphy. Earth Planet. Sci. Lett. 254, 9–27 (2007)."
+
+SJF_Mystic_Lake.txt:
+  start_time: null
+  end_time: null
+  gaps:
+    - [-900, -400]
+  historic_events:
+    - 1812
+  notes: "Historic event in 1812 A.D. Interval removed at sedimentary hiatus ca. 400-900 B.C."
+  references:
+    - "Onderdonk, N., McGill, S. & Rockwell, T. A 3700 yr paleoseismic record from the northern San Jacinto fault and implications for joint rupture of the San Jacinto and San Andreas faults. Geosphere (2018) doi:10.1130/GES01687.1."
