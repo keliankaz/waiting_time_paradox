@@ -1,0 +1,8 @@
+name: paleoseismic
+dependencies:
+  - pandas
+  - tqdm
+  - numpy
+  - seaborn
+  - matplotlib
+  - jupyter
