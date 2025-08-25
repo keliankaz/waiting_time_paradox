@@ -1,4 +1,6 @@
 DSF_Qatar.txt:
+  name: "Quatar"
+  fault: "Dead Sea Fault"
   start_time: -3000
   end_time: 2025
   gaps: null
@@ -13,6 +15,8 @@ DSF_Qatar.txt:
     - "Klinger, Y., Le Béon, M. & Al-Qaryouti, M. 5000 yr of paleoseismicity along the southern Dead Sea fault. Geophys. J. Int. 202, 313–327 (2015)."
 
 CSZ_central.txt:
+  name: "Central Cascadia Subduction Zone"
+  fault: "Central Cascadia Subduction Zone"
   start_time: null
   end_time: null
   gaps: null
@@ -23,6 +27,8 @@ CSZ_central.txt:
     - "Goldfinger, C. et al. Turbidite Event History—Methods and Implications for Holocene Paleoseismicity of the Cascadia Subduction Zone. 170 (2012)."
 
 SAF_Pallett_Creek.txt:
+  name: "Pallett Creek"
+  fault: "San Andreas Fault"
   start_time: 700
   end_time: 2025
   gaps: null
@@ -34,6 +40,8 @@ SAF_Pallett_Creek.txt:
     - "Scharer, K. M., Biasi, G. P. & Weldon II, R. J. A reevaluation of the Pallett Creek earthquake chronology based on new AMS radiocarbon dates, San Andreas fault, California. J. Geophys. Res. 116, (2011)."
 
 DSF_Beteiha.txt:
+  name: "Beteiha"
+  fault: "Dead Sea Fault"
   start_time: -6500
   end_time: 2025
   gaps: null
@@ -53,6 +61,8 @@ DSF_Beteiha.txt:
     - "Lefevre, M., Klinger, Y., Al-Qaryouti, M., Le Béon, M. & Moumani, K. Slip deficit and temporal clustering along the Dead Sea fault from paleoseismological investigations. Sci. Rep. 8, 4511 (2018)."
 
 SAF_Wrightwood.txt:
+  name: "Wrightwood"
+  fault: "San Andreas Fault"
   start_time: -3000
   end_time: 2025
   gaps:
@@ -66,6 +76,8 @@ SAF_Wrightwood.txt:
     - "Biasi, G. P., Weldon II, R. J., Fumal, T. & Seitz, G. G. Paleoseismic Event Dating and the Conditional Probability of Large Earthquakes on the Southern San Andreas Fault, California. Bull. Seismol. Soc. Am. 92, 2761–2781 (2002)."
 
 SAF_Frasier_Mountian.txt:
+  name: "Frasier Mountain"
+  fault: "San Andreas Fault"
   start_time: 800
   end_time: 2025
   gaps: null
@@ -77,6 +89,8 @@ SAF_Frasier_Mountian.txt:
     - "Scharer, K., Weldon, R., Biasi, G., Streig, A. & Fumal, T. Ground‐rupturing earthquakes on the northern Big Bend of the San Andreas Fault, California, 800 A.D. to Present. J. Geophys. Res. Solid Earth 122, 2193–2218 (2017)."
 
 SJF_Hog_Lake.txt:
+  name: "Hog Lake"
+  fault: "San Jacinto Fault"
   start_time: null
   end_time: 2025
   gaps: null
@@ -88,6 +102,8 @@ SJF_Hog_Lake.txt:
     - "Rockwell, T. K., Dawson, T. E., Young Ben-Horin, J. & Seitz, G. A 21-Event, 4,000-Year History of Surface Ruptures in the Anza Seismic Gap, San Jacinto Fault, and Implications for Long-term Earthquake Production on a Major Plate Boundary Fault. Pure Appl. Geophys. 172, 1143–1165 (2015)."
 
 AF_Lake_Paringa.txt:
+  name: "Lake Paringa"
+  fault: "Alpine Fault"
   start_time: null
   end_time: null
   gaps: null
@@ -98,6 +114,8 @@ AF_Lake_Paringa.txt:
     - "Howarth, J. D. et al. Past large earthquakes on the Alpine Fault: paleoseismological progress and future directions. N. Z. J. Geol. Geophys. 61, 309–328 (2018)."
 
 ATF_CopperMine10.txt:
+  name: "Copper Mine 10"
+  fault: "Altyn Tagh Fault"
   start_time: null
   end_time: null
   gaps: null
@@ -107,6 +125,8 @@ ATF_CopperMine10.txt:
     - "Pinzon, N. et al. Spatiotemporal Clustering of Large Earthquakes Along the Central‐Eastern Sections of the Altyn Tagh Fault, China. J. Geophys. Res. Solid Earth 129, e2024JB028912 (2024)."
 
 AF_Hokuri_Creek.txt:
+  name: "Hokuri Creek"
+  fault: "Alpine Fault"
   start_time: null
   end_time: null
   gaps: null
@@ -117,6 +137,8 @@ AF_Hokuri_Creek.txt:
     - "Berryman, K. R. et al. Major Earthquakes Occur Regularly on an Isolated Plate Boundary Fault. Science 336, 1690–1693 (2012)."
 
 CSZ_south.txt:
+  name: "Southern Cascadia Subduction Zone"
+  fault: "Cascadia Subduction Zone"
   start_time: null
   end_time: null
   gaps: null
@@ -127,6 +149,8 @@ CSZ_south.txt:
     - "Goldfinger, C. et al. Turbidite Event History—Methods and Implications for Holocene Paleoseismicity of the Cascadia Subduction Zone. 170 (2012)."
 
 SAF_Noyo_Canyon.txt:
+  name: "Noyo Canyon"
+  fault: "San Andreas Fault"
   start_time: null
   end_time: null
   gaps: null
@@ -137,6 +161,8 @@ SAF_Noyo_Canyon.txt:
     - "Goldfinger, C. et al. Rupture lengths and temporal history of significant earthquakes on the offshore and north coast segments of the Northern San Andreas Fault based on turbidite stratigraphy. Earth Planet. Sci. Lett. 254, 9–27 (2007)."
 
 SJF_Mystic_Lake.txt:
+  name: "Mystic Lake"
+  fault: "San Jacinto Fault"
   start_time: null
   end_time: null
   gaps:

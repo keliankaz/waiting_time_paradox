@@ -1,4 +1,6 @@
 name: paleoseismic
+channels:
+  - conda-forge
 dependencies:
   - pandas
   - tqdm
@@ -6,3 +8,4 @@ dependencies:
   - seaborn
   - matplotlib
   - jupyter
+  - lifelines

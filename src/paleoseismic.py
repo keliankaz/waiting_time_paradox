@@ -23,12 +23,17 @@ class PaleoseismicCatalog:
         minimum_interevent_time: float = 10,  # years
         historic_events: List[float] | None = None,
         gaps: List[List[float]] | None = None,
+        name: str | None = None,
+        fault: str | None = None,
         notes: str | None = None,
         references: List[str] | None = None,
     ):
         self.file = file
         self._raw_record = self.load_data()
         self.record = copy.deepcopy(self._raw_record)
+
+        self.name = name
+        self.fault = fault
 
         self.notes = notes
         self.references = references
