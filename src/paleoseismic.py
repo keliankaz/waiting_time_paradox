@@ -394,7 +394,7 @@ class PaleoseismicCatalog:
 
         return ax, waiting_time, lapse_time
 
-    def visualize_paradox(self, number_of_samples=100, ax=None):
+    def visualize_paradox(self, number_of_samples=100, present_day_interval=None, ax=None):
         if ax is None:
             _, AX = plt.subplots(2, 1, sharex=True)
 
@@ -445,6 +445,12 @@ class PaleoseismicCatalog:
 
         ax = AX[0]
         hist_kwargs = dict(alpha=0.5, density=True)
+        
+        if present_day_interval is not None:
+            present_day_interval = present_day_interval[present_day_interval > 0]
+            present_day_interval = np.mean(present_day_interval)
+            random_interval = np.concatenate([random_interval, present_day_interval*np.ones(len(random_interval))])
+        
         random_observer_density, bins, _ = ax.hist(
             random_observer, bins=50, label="Random observer (us)", **hist_kwargs
         )
@@ -508,8 +514,7 @@ class PaleoseismicCatalog:
                 [self.sample_event(event) for event in self.get_events()]
             )
             if np.all(
-                np.diff(candidate_sample[~np.isnan(candidate_sample)])
-                > self.minimum_interevent_time
+                (np.diff(candidate_sample[~np.isnan(candidate_sample)]) > self.minimum_interevent_time)
             ):
                 valid_sample = candidate_sample
                 break

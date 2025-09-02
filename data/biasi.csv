@@ -1,0 +1,20 @@
+Fault Branch,Site Code,Site*,Number of Earthquakes,Open Interval,LN: Exp(⁠⁠) (Yr),LN,EXP:  (Yr),LN CP of Event in 100 Yr after 1918†,EXP CP of Event in 100 Yr after 1918†,C1 Base Rate Fraction,C2 Base Rate Fraction,C1m Rate Fraction,C2m Rate Fraction
+SmSAF,COA,Coachella,7,300,132,0.78,181,0.5,0.41,1,0,1.0,0.3
+,TP,Thousand Palms,5,300,231,0.5,298,0.49,0.27,0,1,0.2,1.0
+SSAF,BUR,Burro Flats,9,206,175,0.79,237,0.42,0.33,0,1,0.75,1.0
+,PIT,Pitman Canyon,7,206,140,0.65,181,0.57,0.41,0,0,0.8,0.5
+SJF,HOG,Hog Lake,21,100,150,0.74,191,0.29,0.39,1,0,1.0,0.5
+,MYS,Mystic Lake,11,191,135,0.71,172,0.54,0.42,0,1,0.5,1.0
+SSAF,WW,Wrightwood,15,161,86,0.65,107,0.74,0.59,0,0,0.2,0.35
+,PAL,Pallett Creek,10,161,121,0.65,152,0.6,0.46,0,1,0.5,1.0
+,FRA,Frazier Mountain,10,161,87,0.86,119,0.64,0.55,1,0,1.0,0.5
+,BID,Bidart Ranch,6,161,90,0.71,120,0.69,0.55,0,0,0.2,0.25
+NSAF,SCZ,Santa Cruz,10,112,80,0.8,106,0.65,0.59,1,0,1.0,0.5
+,VED,Vedanta,12,112,199,0.75,258,0.21,0.31,0,1,0.5,1.0
+,NYO,"Noyo, offshore",15,112,163,0.53,190,0.23,0.39,0,0,0.3,0.3
+HF,TYS,Tyson Lagoon,12,151,264,0.61,329,0.17,0.25,1,0,1.0,0.8
+,NHY,Mira Vista,8,307,152,0.45,175,0.74,0.42,0,1,0.8,1.0
+ELS,ELG,Elsinore Glen Ivy,6,108,162,0.45,195,0.17,0.39,0,1,0.0,1.0
+NON TFS,GAC,Garlock Central,6,474,883,0.98,1370,0.09,0.07,0,0,0.0,0.0
+,GAW,Garlock West,5,330,821,0.9,1265,0.08,0.07,0,0,0.0,0.0
+,COM,Compton,6,1210,1630,1.0,2464,0.05,0.04,0,0,0.0,0.0
