@@ -11,6 +11,7 @@ import seaborn as sns
 # Sample records form the fit distributions (prediction that the effects should be more severe)
 # Mask out intervals without data
 # Ideas for how to deal with potential missing events deeper in the past
+# integrate the get_dt function into the class
 
 
 class PaleoseismicCatalog:
@@ -27,6 +28,8 @@ class PaleoseismicCatalog:
         fault: str | None = None,
         notes: str | None = None,
         references: List[str] | None = None,
+        latitude: float | None = None,
+        longitude: float | None = None,
     ):
         self.file = file
         self._raw_record = self.load_data()
@@ -34,7 +37,9 @@ class PaleoseismicCatalog:
 
         self.name = name
         self.fault = fault
-
+        self.latitude = latitude
+        self.longitude = longitude
+        
         self.notes = notes
         self.references = references
 
@@ -270,11 +275,14 @@ class PaleoseismicCatalog:
             self.get_events(), self.get_event_codes()
         ):  # important: pandas (default) sorting causes the ages to be out of order
             mid_points = 0.5 * (event["age"].values[1:] + event["age"].values[:-1])
-            ax.plot(
+            ax.fill_between(
                 mid_points,
-                event["PDF"].iloc[:-1] / np.diff(event["age"]),
+                event["PDF"].iloc[:-1] / np.diff(event["age"])*0,
+                event["PDF"].iloc[1:] / np.diff(event["age"]),
                 label=event_code,
-                lw=0.5,
+                edgecolor=[0,0,0,1],
+                lw=1,
+                alpha=0.5,
             )
 
         self._add_gaps(ax)
@@ -642,3 +650,49 @@ class PaleoseismicCatalog:
         ecdf_vals = counts / number_of_samples
 
         return ecdf_vals if Tq.size > 1 else ecdf_vals.item()
+
+
+def get_dt(t, trench_catalog):
+    dt_list = []
+    event_observed_list = []
+    t0 = (
+        trench_catalog.start_time
+        if trench_catalog.start_time > 0
+        else min(t) - trench_catalog.minimum_interevent_time
+    )
+    
+    
+    for gap in trench_catalog.gaps:
+        chunck = [np.atleast_1d(t0)]
+        chunck.append(t[t < gap[0]])
+        chunck.append(np.atleast_1d(gap[0]))
+
+        chunck = np.concatenate(chunck)
+
+        dt_chunk = np.diff(chunck)
+        event_observed_chunk = np.ones_like(dt_chunk)
+        event_observed_chunk[0] = 0
+        event_observed_chunk[-1] = 0
+
+        dt_list.append(dt_chunk)
+        event_observed_list.append(event_observed_chunk)
+
+        t0 = gap[1]
+        
+    # last chunk
+    dt_chunk = np.diff(t[t > t0])
+    event_observed_chunk = np.ones_like(dt_chunk)
+    event_observed_chunk[0] = 0
+    event_observed_chunk[-1] = 0
+
+    dt_list.append(dt_chunk)
+    event_observed_list.append(event_observed_chunk)
+
+    dt = np.concatenate(dt_list)
+    event_observed = np.concatenate(event_observed_list)
+    entry_time = np.ones_like(dt) * trench_catalog.minimum_interevent_time
+    
+    # really don't know what the best way to handle this is
+    dt[dt < trench_catalog.minimum_interevent_time] = trench_catalog.minimum_interevent_time
+    
+    return dt, event_observed, entry_time
