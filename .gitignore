@@ -3,3 +3,4 @@
 /src.egg-info
 *__pycache__
 data/Qfaults_GIS/*
+deprecated/*
