@@ -1,6 +1,8 @@
 DSF_Qatar.txt:
   name: "Quatar"
   fault: "Dead Sea Fault"
+  latitude: 29.812889
+  longitude: 35.073972
   start_time: -3000
   end_time: 2025
   gaps: null
@@ -9,7 +11,7 @@ DSF_Qatar.txt:
     - 749
     - 1068
     - 1212
-    - 1458 
+    - 1458
   notes: "Historic events in 363, 749, 1068, 1212, and 1458 A.D."
   references:
     - "Klinger, Y., Le Béon, M. & Al-Qaryouti, M. 5000 yr of paleoseismicity along the southern Dead Sea fault. Geophys. J. Int. 202, 313–327 (2015)."
@@ -17,6 +19,8 @@ DSF_Qatar.txt:
 CSZ_central.txt:
   name: "Central Cascadia Subduction Zone"
   fault: "Central Cascadia Subduction Zone"
+  latitude: 44.566667
+  longitude: -125.150000
   start_time: null
   end_time: null
   gaps: null
@@ -29,6 +33,8 @@ CSZ_central.txt:
 SAF_Pallett_Creek.txt:
   name: "Pallett Creek"
   fault: "San Andreas Fault"
+  latitude: 34.458333
+  longitude: -117.893611
   start_time: 700
   end_time: 2025
   gaps: null
@@ -42,7 +48,9 @@ SAF_Pallett_Creek.txt:
 DSF_Beteiha.txt:
   name: "Beteiha"
   fault: "Dead Sea Fault"
-  start_time: -6500
+  latitude: 32.870000
+  longitude: 35.650000
+  start_time: null
   end_time: 2025
   gaps: null
   historic_events:
@@ -63,6 +71,8 @@ DSF_Beteiha.txt:
 SAF_Wrightwood.txt:
   name: "Wrightwood"
   fault: "San Andreas Fault"
+  latitude: 34.369444
+  longitude: -117.667778
   start_time: -3000
   end_time: 2025
   gaps:
@@ -78,6 +88,8 @@ SAF_Wrightwood.txt:
 SAF_Frasier_Mountian.txt:
   name: "Frasier Mountain"
   fault: "San Andreas Fault"
+  latitude: 34.812200
+  longitude: -118.903400
   start_time: 800
   end_time: 2025
   gaps: null
@@ -91,6 +103,8 @@ SAF_Frasier_Mountian.txt:
 SJF_Hog_Lake.txt:
   name: "Hog Lake"
   fault: "San Jacinto Fault"
+  latitude: 33.615312
+  longitude: -116.709095
   start_time: null
   end_time: 2025
   gaps: null
@@ -104,6 +118,8 @@ SJF_Hog_Lake.txt:
 AF_Lake_Paringa.txt:
   name: "Lake Paringa"
   fault: "Alpine Fault"
+  latitude: -43.713500
+  longitude: 169.427000
   start_time: null
   end_time: null
   gaps: null
@@ -116,6 +132,8 @@ AF_Lake_Paringa.txt:
 ATF_CopperMine10.txt:
   name: "Copper Mine 10"
   fault: "Altyn Tagh Fault"
+  latitude: 38.900000
+  longitude: 91.600000
   start_time: null
   end_time: null
   gaps: null
@@ -127,6 +145,8 @@ ATF_CopperMine10.txt:
 AF_Hokuri_Creek.txt:
   name: "Hokuri Creek"
   fault: "Alpine Fault"
+  latitude: -44.430800
+  longitude: 168.128600
   start_time: null
   end_time: null
   gaps: null
@@ -139,6 +159,8 @@ AF_Hokuri_Creek.txt:
 CSZ_south.txt:
   name: "Southern Cascadia Subduction Zone"
   fault: "Cascadia Subduction Zone"
+  latitude: 41.150000
+  longitude: -124.833333
   start_time: null
   end_time: null
   gaps: null
@@ -151,6 +173,8 @@ CSZ_south.txt:
 SAF_Noyo_Canyon.txt:
   name: "Noyo Canyon"
   fault: "San Andreas Fault"
+  latitude: 39.516667
+  longitude: -124.333333
   start_time: null
   end_time: null
   gaps: null
@@ -163,6 +187,8 @@ SAF_Noyo_Canyon.txt:
 SJF_Mystic_Lake.txt:
   name: "Mystic Lake"
   fault: "San Jacinto Fault"
+  latitude: 33.830000
+  longitude: -117.040000
   start_time: null
   end_time: null
   gaps:

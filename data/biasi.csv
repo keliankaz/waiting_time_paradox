@@ -1,20 +1,20 @@
-Fault Branch,Site Code,Site*,Number of Earthquakes,Open Interval,LN: Exp(⁠⁠) (Yr),LN,EXP:  (Yr),LN CP of Event in 100 Yr after 1918†,EXP CP of Event in 100 Yr after 1918†,C1 Base Rate Fraction,C2 Base Rate Fraction,C1m Rate Fraction,C2m Rate Fraction
-SmSAF,COA,Coachella,7,300,132,0.78,181,0.5,0.41,1,0,1.0,0.3
-,TP,Thousand Palms,5,300,231,0.5,298,0.49,0.27,0,1,0.2,1.0
-SSAF,BUR,Burro Flats,9,206,175,0.79,237,0.42,0.33,0,1,0.75,1.0
-,PIT,Pitman Canyon,7,206,140,0.65,181,0.57,0.41,0,0,0.8,0.5
-SJF,HOG,Hog Lake,21,100,150,0.74,191,0.29,0.39,1,0,1.0,0.5
-,MYS,Mystic Lake,11,191,135,0.71,172,0.54,0.42,0,1,0.5,1.0
-SSAF,WW,Wrightwood,15,161,86,0.65,107,0.74,0.59,0,0,0.2,0.35
-,PAL,Pallett Creek,10,161,121,0.65,152,0.6,0.46,0,1,0.5,1.0
-,FRA,Frazier Mountain,10,161,87,0.86,119,0.64,0.55,1,0,1.0,0.5
-,BID,Bidart Ranch,6,161,90,0.71,120,0.69,0.55,0,0,0.2,0.25
-NSAF,SCZ,Santa Cruz,10,112,80,0.8,106,0.65,0.59,1,0,1.0,0.5
-,VED,Vedanta,12,112,199,0.75,258,0.21,0.31,0,1,0.5,1.0
-,NYO,"Noyo, offshore",15,112,163,0.53,190,0.23,0.39,0,0,0.3,0.3
-HF,TYS,Tyson Lagoon,12,151,264,0.61,329,0.17,0.25,1,0,1.0,0.8
-,NHY,Mira Vista,8,307,152,0.45,175,0.74,0.42,0,1,0.8,1.0
-ELS,ELG,Elsinore Glen Ivy,6,108,162,0.45,195,0.17,0.39,0,1,0.0,1.0
-NON TFS,GAC,Garlock Central,6,474,883,0.98,1370,0.09,0.07,0,0,0.0,0.0
-,GAW,Garlock West,5,330,821,0.9,1265,0.08,0.07,0,0,0.0,0.0
-,COM,Compton,6,1210,1630,1.0,2464,0.05,0.04,0,0,0.0,0.0
+Fault Branch,Site Code,Site*,Latitude,Longitude,Coordinate Source,Notes,Number of Earthquakes,Open Interval,LN: Exp(⁠⁠) (Yr),LN,EXP:  (Yr),LN CP of Event in 100 Yr after 1918†,EXP CP of Event in 100 Yr after 1918†,C1 Base Rate Fraction,C2 Base Rate Fraction,C1m Rate Fraction,C2m Rate Fraction
+SmSAF,COA,Coachella,33.727354,-116.170074,UCERF3 Appendix G (Table G4),,7,300,132,0.78,181,0.5,0.41,1,0,1.0,0.3
+,TP,Thousand Palms,33.836807,-116.308798,UCERF3 Appendix G (Table G4),,5,300,231,0.5,298,0.49,0.27,0,1,0.2,1.0
+SSAF,BUR,Burro Flats,33.999664,-116.860839,UCERF3 Appendix G (Table G4),,9,206,175,0.79,237,0.42,0.33,0,1,0.75,1.0
+,PIT,Pitman Canyon,34.252306,-117.430282,UCERF3 Appendix G (Table G4),,7,206,140,0.65,181,0.57,0.41,0,0,0.8,0.5
+SJF,HOG,Hog Lake,33.685016,-116.823493,UCERF3 Appendix G (Table G4),,21,100,150,0.74,191,0.29,0.39,1,0,1.0,0.5
+,MYS,Mystic Lake,33.900322,-117.089184,UCERF3 Appendix G (Mystic Lake),,11,191,135,0.71,172,0.54,0.42,0,1,0.5,1.0
+SSAF,WW,Wrightwood,34.370541,-117.668229,UCERF3 Appendix G (Table G4),,15,161,86,0.65,107,0.74,0.59,0,0,0.2,0.35
+,PAL,Pallett Creek,34.45584,-117.887651,UCERF3 Appendix G (Table G4),,10,161,121,0.65,152,0.6,0.46,0,1,0.5,1.0
+,FRA,Frazier Mountain,34.8122,-118.9034,USGS OFR 2014-1002,,10,161,87,0.86,119,0.64,0.55,1,0,1.0,0.5
+,BID,Bidart Ranch,35.23428,-119.78871,UCERF3 Appendix G (Table G4),,6,161,90,0.71,120,0.69,0.55,0,0,0.2,0.25
+NSAF,SCZ,Santa Cruz,36.909731,-121.62363,UCERF3 Appendix G (Table G4: Arano Flat),Mapped to Arano Flat (Santa Cruz Mts record).,10,112,80,0.8,106,0.65,0.59,1,0,1.0,0.5
+,VED,Vedanta,38.032,-122.7891,UCERF3 Appendix G (Table G4: Vedanta),,12,112,199,0.75,258,0.21,0.31,0,1,0.5,1.0
+,NYO,"Noyo Canyon",39.516667,-124.333333,NGA Marine Gazetteer (Noyo Canyon),Offshore turbidite record; representative Noyo Canyon location (approx).,15,112,163,0.53,190,0.23,0.39,0,0,0.3,0.3
+HF,TYS,Tyson Lagoon,37.5563,-121.9739,UCERF3 Appendix G (Table G4),,12,151,264,0.61,329,0.17,0.25,1,0,1.0,0.8
+,NHY,Mira Vista,37.9306,-122.2977,UCERF3 Appendix G (Table G4),,8,307,152,0.45,175,0.74,0.42,0,1,0.8,1.0
+ELS,ELG,Elsinore Glen Ivy,33.7701,-117.4909,UCERF2 Appendix B (Glen Ivy),,6,108,162,0.45,195,0.17,0.39,0,1,0.0,1.0
+NON TFS,GAC,Garlock Central,35.4441,-117.6815,UCERF3 Appendix G (Table G4: El Paso Peaks),,6,474,883,0.98,1370,0.09,0.07,0,0,0.0,0.0
+,GAW,Garlock West,34.9868,-118.508,UCERF3 Appendix G (Table G4: Twin Lakes),,5,330,821,0.9,1265,0.08,0.07,0,0,0.0,0.0
+,COM,Compton,33.965,-118.263,USGS UCERF3 Table B1 (Stanford Ave site),Blind thrust; coords are Stanford Ave backlimb fold study site.,6,1210,1630,1.0,2464,0.05,0.04,0,0,0.0,0.0
