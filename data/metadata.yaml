@@ -17,8 +17,8 @@ DSF_Qatar.txt:
     - "Klinger, Y., Le Béon, M. & Al-Qaryouti, M. 5000 yr of paleoseismicity along the southern Dead Sea fault. Geophys. J. Int. 202, 313–327 (2015)."
 
 CSZ_central.txt:
-  name: "Central Cascadia Subduction Zone"
-  fault: "Central Cascadia Subduction Zone"
+  name: "Central Cascadia"
+  fault: "Central Cascadia"
   latitude: 44.566667
   longitude: -125.150000
   start_time: null
@@ -157,8 +157,8 @@ AF_Hokuri_Creek.txt:
     - "Berryman, K. R. et al. Major Earthquakes Occur Regularly on an Isolated Plate Boundary Fault. Science 336, 1690–1693 (2012)."
 
 CSZ_south.txt:
-  name: "Southern Cascadia Subduction Zone"
-  fault: "Cascadia Subduction Zone"
+  name: "Southern Cascadia"
+  fault: "Cascadia"
   latitude: 41.150000
   longitude: -124.833333
   start_time: null

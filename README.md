@@ -20,9 +20,11 @@ The code has been tested on MacOS Sequoia 15.6 Make sure you have the latest of 
 Install dependencies and create a new conda environment.
 
 ``` bash
-conda env create -f environment.yml
+make setup
 conda activate paleoseismic
 ```
+
+Note that this will install the latest version of OxCal. This is required to run the oxcal models.
 
 ### Usage
 

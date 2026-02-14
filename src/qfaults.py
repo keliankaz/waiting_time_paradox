@@ -1,5 +1,6 @@
 import requests
 import zipfile
+import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
@@ -19,7 +20,9 @@ class Qfaults:
             self.download()
         
         self.crs = "EPSG:4326"
-        self.data = gpd.read_file(self.data_dir / 'SHP/Qfaults_US_Database.shp').to_crs(self.crs)
+        self.data_onshore = gpd.read_file(self.data_dir / 'SHP/Qfaults_US_Database.shp').to_crs(self.crs)
+        self.data_offshore = gpd.read_file(self.data_dir / 'SHP/ca_offshore.shp').to_crs(self.crs)
+        self.data = pd.concat([self.data_onshore, self.data_offshore])
 
 
     def download(self):

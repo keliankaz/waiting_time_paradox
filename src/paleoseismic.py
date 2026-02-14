@@ -651,7 +651,6 @@ class PaleoseismicCatalog:
 
         return ecdf_vals if Tq.size > 1 else ecdf_vals.item()
 
-
 def get_dt(t, trench_catalog):
     dt_list = []
     event_observed_list = []
